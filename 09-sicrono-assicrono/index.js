@@ -1,21 +1,25 @@
-// setTimeout(() => {
-//     alert('Olá, testando o setTimeout.')
-// }, 2000)
+function colocarAguaPraFerver(){
+    console.log('colocar aguar pra ferver');
+    
+    setTimeout(() => {
+        console.log('agua ferveu');
+        passarOCafe();
+    }, 5000);
+}
 
-// setTimeout(() => {
-//     console.log('console dentro do setTimeout');
-// }, 4000)
+function prepararPraPassarOCafe(){
+    console.log('pegar o pó de café');
+    console.log('pegar o filtro de café');
+    console.log('colocar o café no filtro');
+    console.log('colocar o filtro em cima da xicara');
+    
+}
 
-// setInterval(() => {
-//     console.log('Executando a cada 2 segundos');
-// }, 4000)
+function passarOCafe(){
+    console.log('passando o café');
+    
+}
 
-// console.log('console depois do setTimeout');
-
-const idDoIntervalo = setInterval(() => {
-    console.log('Executando a cada 2 segundos');
-}, 2000)
-
-console.log(idDoIntervalo);
-clearInterval(idDoIntervalo);
+colocarAguaPraFerver();
+prepararPraPassarOCafe();
 

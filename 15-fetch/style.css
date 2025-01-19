@@ -1,0 +1,20 @@
+.cartas{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn{
+    width: 100px;
+    height: 50px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: aqua;
+    cursor: pointer;
+}
+
+.btn:hover{
+    color: white;
+    background-color: aquamarine;
+}
